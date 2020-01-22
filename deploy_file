@@ -1,0 +1,24 @@
+
+Prerequesites:-
+===============
+install npm, nodejs, serve
+install nginx
+edit sites-available
+
+server {
+listen 80 default_server;
+root /var/www/my.app;
+server_name IP ;
+index index.html index.htm;
+location / {
+}
+}
+
+1) Create a directory my.app
+2) got my.app and run npm init
+3) add serve PATH, absolute path of serve
+run serv -s build &
+
+restart nginx n try login http://IP
+
+
