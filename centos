@@ -1,0 +1,29 @@
+yum update -y
+yum epel-release -y
+curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+yum install nodejs -y
+
+
+  1  cd
+    2  yum update -y
+    3  yum install epel-release -y
+    4  free -m
+    5  yum install nginx -y
+    6  yum install git -y
+    7  curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+    8  yum install node.js -y
+    9  yum install nodejs -y
+   10  npm
+   11  pwd
+   12  cd /usr/share/nginx/html/
+   13  ll
+   14  git clone https://github.com/suresh-devops-dev/ReactJs.git
+   15  ll
+   16  cp ReactJs/* .
+   17  cp -r ReactJs/* .
+   18  ll
+   19  npm init
+   20  npm install serve -g
+   21  serve -s build &
+   22  systemctl start nginx
+   23  history
